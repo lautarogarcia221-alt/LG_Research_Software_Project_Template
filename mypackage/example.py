@@ -16,6 +16,8 @@ Docstring features demonstrated in this file:
 These sections render nicely in pdoc-generated pages.
 """
 
+__all__ = ["power_self", "clip_and_scale"]
+
 
 def power_self(x: int) -> int:
     """Return x raised to itself.

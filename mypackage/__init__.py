@@ -9,16 +9,17 @@ Overview:
 
 from importlib.metadata import PackageNotFoundError, version
 
-from mypackage.example import clip_and_scale, power_self
+from . import example as _api
+from .example import *  # noqa: F401,F403
 
-__all__ = ["power_self", "clip_and_scale"]
+__all__ = list(_api.__all__)
 
 # Optional: expose package version from installed metadata.
 # When running directly from source, metadata may not exist yet.
 try:
-	__version__ = version("mypackage")
+    __version__ = version("mypackage")
 except PackageNotFoundError:
-	__version__ = "0.0.0"
+    __version__ = "0.0.0"
 
 # ---------------------------------------------------------------------------
 # Scaffold examples for future package growth

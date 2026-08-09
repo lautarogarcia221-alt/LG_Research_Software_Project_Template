@@ -65,6 +65,14 @@ If your class wants the smallest practical setup, keep these and remove the rest
 
 In Python, a *package* is the folder that holds code you can import into a notebook, script, or test. The template calls this folder `mypackage` only as a placeholder. Choose a short, lowercase name that describes your project, such as `soil_analysis`.
 
+Fast path (recommended):
+
+```bash
+python scripts/rename_package.py soil_analysis
+```
+
+This helper script renames the package folder and updates common references in configuration, docs, workflow files, and the starter notebook.
+
 For example, if you rename `mypackage` to `soil_analysis`, make these matching changes:
 
 1. Rename the folder `mypackage/` to `soil_analysis/`. The `__init__.py` file stays inside that renamed folder; it tells Python to treat the folder as importable code.
@@ -93,3 +101,20 @@ To check the rename, run `make test` if your project uses Make. Otherwise, from 
 ## Pass-By-Default Automation Notes
 
 This template is set up so a fresh GitHub repository from template should pass CI without first-day debugging. Updating the matching references above keeps that true after customization.
+
+## Add New Functions with Fewer Edits
+
+To keep student workflow simple, this template uses a module-level export list.
+
+Default pattern:
+
+1. Add your new function in `mypackage/example.py` (or your renamed package module).
+2. Add the function name to that module's `__all__` list.
+3. Add or update tests.
+
+Because `mypackage/__init__.py` derives package exports from the module `__all__`, students usually do not need to edit `__init__.py` each time they add a function in the same module.
+
+When should students still edit `__init__.py`?
+
+- When introducing a brand new module file (for example `mypackage/stats.py`) and they want top-level imports like `from mypackage import summarize`.
+- When they intentionally want a narrower public API than the module `__all__`.
