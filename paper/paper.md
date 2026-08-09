@@ -28,6 +28,26 @@ Describe the main design choices, architecture, or workflow decisions that shape
 
 Summarize the current or expected impact of the software. This can include reproducible analyses, adoption by others, or evidence of significance in the research workflow. Keep this specific and realistic rather than promotional.
 
+# Project evolution and lessons learned
+
+Use this section to draft short reflections from each in-class activity. These notes can later be refined into the final report and should connect the course activities to your project.
+
+## Modeling Intro
+
+Draft a short reflection on what you learned in the modeling intro activities, which tools or techniques were most useful, how the work relates to your project, and whether you plan to adopt any of the ideas.
+
+## Analytical Modeling
+
+Draft a short reflection on what you learned in the analytical modeling activities, which methods or tools were most useful, how the work relates to your project, and whether you plan to adopt any of the ideas.
+
+## Physical Modeling
+
+Draft a short reflection on what you learned in the physical modeling activities, which methods or tools were most useful, how the work relates to your project, and whether you plan to adopt any of the ideas.
+
+## Data-Driven Modeling
+
+Draft a short reflection on what you learned in the data-driven modeling activities, which methods or tools were most useful, how the work relates to your project, and whether you plan to adopt any of the ideas.
+
 # AI usage disclosure
 
 Describe whether generative AI tools were used in the development of the software, documentation, or manuscript. If no AI tools were used, state that clearly. If they were used, describe the nature of the assistance and how the results were checked.
