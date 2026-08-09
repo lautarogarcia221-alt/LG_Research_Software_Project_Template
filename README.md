@@ -57,9 +57,14 @@ Follow these steps in order. You do not need to read every file in this reposito
 
 Use this README as your home base. Open another document only when it matches your current task.
 
+## Paper and Proposal Scaffold
+
+When you are ready to prepare a project proposal or a final manuscript for a JOSS-style submission, start with the scaffold in [paper/proposal.md](paper/proposal.md), [paper/paper.md](paper/paper.md), and [paper/paper.bib](paper/paper.bib). These files provide a simple starting point for the proposal and manuscript workflow and can be expanded as the project matures.
+
 | If you want to… | Go to… |
 |---|---|
 | Rename the starter package, understand a file, or decide whether to remove one | [Template Customization Guide](guides/template-customization.md) |
+| Start a project proposal or JOSS-style manuscript | [Paper and Proposal Scaffold](#paper-and-proposal-scaffold) |
 | Write your first function and test | [What to Edit First](#what-to-edit-first) below |
 | Learn about or enable a tool | [Tool Overview](#tool-overview) below |
 | Use AI responsibly with code or research materials | [Research Software AI Policy](guides/ai-policy.md) |
