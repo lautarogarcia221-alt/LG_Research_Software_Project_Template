@@ -22,8 +22,8 @@ help:
 	@echo ""
 
 init:
-	conda env create --prefix=./envs -f environment.yml || \
-	conda env update --prefix=./envs -f environment.yml --prune
+	conda env create --prefix=./.envs -f environment.yml || \
+	conda env update --prefix=./.envs -f environment.yml --prune
 
 lint:
 	ruff check .

@@ -127,7 +127,7 @@ Use the tools you need, when you need them.
 | detect-secrets | Scans code for accidentally committed secrets. | `make secrets` | [.pre-commit-config.yaml](.pre-commit-config.yaml), [.secrets.baseline](.secrets.baseline) | https://github.com/Yelp/detect-secrets |
 | nbstripout | Removes notebook output and noisy metadata before commit. | `make nb-clean` | [.pre-commit-config.yaml](.pre-commit-config.yaml) | https://github.com/kynan/nbstripout |
 | Pdoc | Builds simple API documentation pages from docstrings. | `make docs` | [makefile](makefile) | https://pdoc.dev/docs/pdoc.html |
-| Pre-commit | Runs chosen checks before commit so issues are caught early. | `conda run --prefix ./envs pre-commit run --all-files` | [.pre-commit-config.yaml](.pre-commit-config.yaml) | https://pre-commit.com/ |
+| Pre-commit | Runs chosen checks before commit so issues are caught early. | `conda run --prefix ./.envs pre-commit run --all-files` | [.pre-commit-config.yaml](.pre-commit-config.yaml) | https://pre-commit.com/ |
 | GitHub Actions | Runs checks in the cloud after push/pull request (CI), including Python 3.11 and 3.12 matrix testing. | Automatic on GitHub | [.github/workflows/ci.yml](.github/workflows/ci.yml) | https://docs.github.com/actions/quickstart |
 | Dependabot | Opens scheduled dependency update PRs for GitHub Actions and Python metadata. | Automatic on GitHub | [.github/dependabot.yml](.github/dependabot.yml) | https://docs.github.com/code-security/dependabot |
 | JupyterLab | Lets you run notebook cells interactively for exploration and demos. | `conda run --prefix ./envs jupyter lab` | [00_START_HERE.ipynb](00_START_HERE.ipynb) | https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html |
