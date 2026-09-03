@@ -1,3 +1,8 @@
+# CMSE 802 Playground — Lautaro Garcia
+Practice repository for CMSE 802 (Fall 2026). I use this to try the course template, git workflow, and software engineering tools before applying them to my real project.
+Real project: RANGE, a greenhouse-gas model for US beef cow-calf systems on grazed rangeland. That repository is separate and private.
+
+---
 # Scientific Software Starter Template
 
 Starter repository for research teams and students who are new to software engineering.
