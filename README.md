@@ -3,6 +3,7 @@ Practice repository for CMSE 802 (Fall 2026). I use this to try the course templ
 Real project: RANGE, a greenhouse-gas model for US beef cow-calf systems on grazed rangeland. That repository is separate and private.
 
 ---
+
 # Scientific Software Starter Template
 
 Starter repository for research teams and students who are new to software engineering.
